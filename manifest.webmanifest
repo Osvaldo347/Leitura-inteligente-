@@ -1,0 +1,19 @@
+{
+  "name": "LEITURA INTELIGENTE",
+  "short_name": "Leitura",
+  "description": "Menos páginas. Mais compreensão. Conhecimento que permanece. Plataforma editorial inteligente de leitura, condensação adaptativa e retenção.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#FBF9F5",
+  "theme_color": "#1F1C18",
+  "lang": "pt",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "./favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
