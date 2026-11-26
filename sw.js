@@ -1,4 +1,4 @@
-const CACHE_NAME = 'leitura-inteligente-v4';
+const CACHE_NAME = 'leitura-inteligente-v5';
 const CORE_ASSETS = ['./', './index.html', './favicon.svg', './manifest.webmanifest'];
 
 self.addEventListener('install', (event) => {
