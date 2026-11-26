@@ -1,5 +1,5 @@
-const CACHE_NAME = 'leitura-inteligente-v1';
-const CORE_ASSETS = ['/', '/index.html', '/favicon.svg', '/manifest.webmanifest'];
+const CACHE_NAME = 'leitura-inteligente-v3';
+const CORE_ASSETS = ['./', './index.html', './favicon.svg', './manifest.webmanifest'];
 
 self.addEventListener('install', (event) => {
   event.waitUntil(
@@ -23,7 +23,7 @@ self.addEventListener('fetch', (event) => {
   if (url.origin !== self.location.origin) return;
 
   event.respondWith(
-    fetch(event.request)
+    fetch(event.request, { cache: 'no-cache' })
       .then((response) => {
         if (response && response.status === 200) {
           const clone = response.clone();
